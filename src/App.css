@@ -1,0 +1,128 @@
+.app {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.main-div {
+  padding: 1rem;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+h3 {
+  text-align: center;
+}
+.counter-button {
+  font-size: 20px;
+  border: 0;
+  background-color: transparent;
+  padding: 2px 20px;
+  color: white;
+  cursor: pointer;
+}
+.counter-button:hover {
+  color: green;
+  background-color: transparent;
+}
+
+button {
+  padding: 6px 0.7rem;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  border-radius: 4px;
+  border: 1px solid #dd4d4d8a;
+}
+.return-counts {
+  color: white;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 20px;
+}
+
+.align-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 44vh;
+}
+
+.align-sub-header {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.bg-success {
+  background-color: rgb(37, 146, 37);
+}
+
+.bg-primary {
+  background-color: rgb(25, 105, 185);
+}
+
+.add-button {
+  background-color: rgb(37, 146, 37);
+  padding: 4px 1rem;
+  color: white;
+  border-radius: 4px;
+}
+.align-item {
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: center;
+}
+.remove-button {
+  background-color: red;
+  border-radius: 4px;
+  padding: 2px 1rem;
+  color: white;
+  font-size: 0.8rem;
+  margin: 2px 0;
+  cursor: pointer;
+}
+
+table {
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+th {
+  min-width: 130px;
+}
+
+td,
+th,
+table {
+  border: 1px solid grey;
+}
+
+.align-action-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-input-field {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+
+input:focus {
+  border: 1px solid rgb(219, 93, 93);
+  outline: none;
+}
